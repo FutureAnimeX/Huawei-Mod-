@@ -1,0 +1,252 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 Aug 2022, 3:27:28 PM
+    Author     : ST10188776
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+    /*user-select: none;*/
+}
+
+/*HEADER CONTENTS STYLING*/
+
+.content-container{
+    display: flex;
+    height: 80px
+}
+
+.content-container .content-image{
+    margin: auto;
+    width: 25%;
+}
+
+.content-container .content-image img{
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+.content-container .nav-container{
+    margin: auto;
+    height: auto;
+    width: 50%;
+}
+
+.content-container .nav-container nav ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.content-container .nav-container nav ul li{
+    margin: auto
+}
+
+.content-container .nav-container nav ul li a{
+    color: rgba(0, 0, 0, 5); 
+    font-family: sans-serif; 
+    font-size: 14px; 
+    font-weight: lighter; 
+    text-decoration: none; 
+    padding: 5px 10px;
+}
+
+.search-container{
+    margin: auto; 
+    width: 25%;
+}
+
+.search-container .form{
+    position: relative; 
+    display: flex; 
+    margin: auto; 
+    height: auto; 
+    width: fit-content;
+}
+
+.search-container .form input{
+    position: relative; 
+    margin-right: 0; 
+    border-right: none; 
+    border-radius: 3px; 
+    font-weight: lighter; 
+    font-size: 14px; 
+    font-family: sans-serif; 
+    outline: none; 
+    border: none; 
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 70%; 
+    padding: 8px 16px; 
+    background:  #ffffff; 
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.search-container .form input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.search-container .form button{
+    background: #EA3C51; 
+    cursor: pointer; 
+    outline: none; 
+    border: none;  
+    color: #ffffff; 
+    font-family: sans-serif; 
+    font-size: 14px; 
+    border: 1px solid #EA3C51; 
+    font-weight: lighter; 
+    padding: 8px 16px;
+}
+
+header hr{
+    width: 100%; 
+    height: 1px; 
+    border: none; 
+    outline: none; 
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+/*MAIN CONTENTS STYLING*/
+
+.main-contents{
+    margin: 100px auto;
+    width: 70%;
+}
+
+.main-contents .main-discriptions{
+    width: 100%; 
+    margin: auto; 
+    height: fit-content; 
+    display: flex;
+}
+
+.main-contents .main-discriptions .heading{
+    width: 40%; 
+    display: block; 
+    height: 50px;
+}
+
+.main-contents .main-discriptions .heading .heading-box{
+    width: 100%; 
+    display: block;
+}
+
+.main-contents .main-discriptions .heading .heading-box h4{
+    font-size: 30px; 
+    font-family: sans-serif; 
+    color: rgba(0, 0, 0, 0.7); 
+    font-weight: bold; 
+    margin: auto;
+}
+
+.main-contents .main-discriptions .paragraphs{
+    margin: auto; 
+    width: 60%; 
+    display: block;
+}
+
+.main-contents .image-contents{
+    width: 100%; 
+    margin: auto; 
+    height: fit-content; 
+    display: flex; 
+    margin: 40px auto 10px auto;
+}
+
+.main-contents .image-contents .image-box{
+    margin: auto; 
+    width: 50%; 
+    height: auto
+}
+
+.main-contents .underline{
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    margin: auto;
+}
+
+/*FOOTER CONTENTS STYLING*/
+
+.footer-contents{
+    background: rgba(0, 0, 0, 0.06);
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    display: block;
+}
+
+.footer-contents .table-container{
+    width: 80%; 
+    height: 350px; 
+    margin: auto;
+}
+
+.footer-contents .lower-footer-cont{
+    margin: auto; 
+    display: flex; 
+    bottom: 0; 
+    height: 60px; 
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.footer-contents .lower-footer-cont .contents{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.footer-contents .lower-footer-cont .contents p{
+    text-align: center; 
+    color: rgba(0, 0, 0, 2); 
+    font-family: sans-serif; 
+    font-size: 12px; 
+    font-weight: lighter; 
+    padding: 5px 10px;
+    margin: auto;
+    height: auto;
+}
+
+.footer-contents .lower-footer-cont .contents ul{
+    display: flex; 
+    list-style-type: none;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.footer-contents .lower-footer-cont .contents ul li{
+    margin: auto;
+}
+
+.footer-contents .lower-footer-cont .contents ul li a{
+    color: rgba(0, 0, 0, 2);
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.footer-contents .lower-footer-cont .contents ul li a:hover{
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+}

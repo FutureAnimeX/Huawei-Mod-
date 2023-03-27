@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Get Involved</title>
+  <link rel="stylesheet" href="CSS/get-Involved.css">
+  <style>
+         .content-container .nav-container ul li a{
+            transition: 0.5s ease-in-out;
+         }
+         .content-container .nav-container ul li a:hover{
+            background: rgba(0, 0, 0, 0.08);
+            border-radius: 2px;
+         }
+         
+         @media only screen and (max-width: 768px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+         
+    </style>
+</head>
+
+<body>
+    
+    <!-- HEADER CONTENTS -->
+    <header>
+        <div class="content-container">
+            
+            <div class="content-image">
+                <img src="Images/huawei_logo.png" alt="Huawei Logo" />
+            </div>
+            
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="our-work.html">Our Work</a></li>
+                        <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                        <li><a style="color: #cccccc; cursor: default;" href="#">Get Involved</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="search-container">
+                <form>
+                    <div class="form">
+                        <input autocomplete="off" type="search" spellcheck="true" placeholder="Search huawei.com" />
+                        <button type="submit">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr style=" width: 100%; height: 1px; border: none; outline: none; background: rgba(0, 0, 0, 0.1);" />
+        
+    </header>
+
+    <!-- MAIN CONTENTS -->
+    
+    <main>
+        <div class="Sub-heading">
+            <h3>Register</h3>
+            <hr style="background: red; border-radius: 10px; outline: none; border: none; height: 2px; width: 50px;" />
+            <h4>Create your new account here & join us</h4>
+        </div>
+        <div>
+            <form action="homepage.html">
+                <div class="main-contents">
+                    <hr style="background: rgba(0, 0, 0, 0.1); outline: none; border: none; height: 2px; width: 170px; margin-bottom: 30px;" />
+                    <div class="main-container">
+                        <div class="name-contents">
+                            <input style="margin-left: 0;" required type="text" placeholder="First Name*" /> <br />
+                            <input style="margin-right: 0;" required type="text" placeholder="Last Name*" /> <br />
+                        </div>
+                        <div class="contents">
+                            <input required type="text" placeholder="User ID*" /> <br />
+                            <input required type="email" placeholder="Email*" /> <br />
+                            <input required type="tel" placeholder="Phone Number*" /> <br />
+                            <input required type="password" placeholder="Password*" /> <br />
+                        </div>
+                        <select class="options">
+                            <option>---select country---</option>
+                            <option>South Africa</option>
+                            <option>United States</option>
+                            <option>England</option>
+                            <option>China</option>
+                        </select> <br />
+                        <div class="check-conditions">
+                            <input id="check" required type="checkbox"  /> <br />
+                            <label for="check">*I accept the Terms of Use Conditions & Privacy Policy</label>
+                        </div>
+                        <div class="btns">
+                            <button type="reset">Reset Values</button> <br />
+                            <button type="submit">Join Now</button> <br />
+                        </div>
+                    </div>
+                    <hr style="background: rgba(0, 0, 0, 0.1); outline: none; border: none; height: 2px; width: 170px; margin-top: 50px;" />
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- FOOTER CONTENTS -->
+    
+    <footer>
+        <div class="footer-contents">
+            
+            <hr style="width: 90%; height: 1px; border: none; outline: none; background: red;" />           
+            <hr style="width: 40px; height: 2px; border: none; outline: none; background: rgba(0, 0, 0, 0.1);" />
+            
+            <div class="lower-footer-cont">
+                <div class="contents">
+                    <p style=" padding: 5px 10px;" >©2022 Huawei Technologies Co., Ltd.</p>
+                </div>
+                <div class="contents" style="width: 1%">
+                    <p style="padding: 10px auto;"> | </p>
+                </div>
+                <div class="contents">
+                    <ul>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="#">Terms of Us</a></li>
+                        <li><a href="#">Work with us</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="main.js"></script>
+</body>
+</html>
